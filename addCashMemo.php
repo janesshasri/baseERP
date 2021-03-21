@@ -187,7 +187,7 @@ include('header.php');
                                                 <?php $qr  = "select * from salesitemaster2;";
                                                 $exc = mysqli_query($dbcon,$qr)or die();
                                                 while($r = mysqli_fetch_array($exc)){ ?>
-                                                <option value="<?php echo $r['id']; ?>"><?php echo "[".$r['itemcode']."] ".$r['itemname']; ?></option>
+                                                <option value="<?php echo $r['id']; ?>"><?php echo $r['itemname']." [".$r['itemcode']."]"; ?></option>
                                                 <?php
                                                                                     }
                                                 ?>

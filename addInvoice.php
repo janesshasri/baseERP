@@ -81,7 +81,7 @@ include('header.php');
                                             while ($row = $sql->fetch_assoc()){	
                                                 $custid=$row['custid'];
                                                 $custname=$row['custname'];
-                                                echo '<option  value="'.$custid.'" >'.$custid.' - '.$custname.'</option>';
+                                                echo '<option  value="'.$custid.'" >'.$custname.' - '.$custid.'</option>';
                                             }
                                             ?>
                                         </select>

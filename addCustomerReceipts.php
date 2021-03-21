@@ -255,10 +255,10 @@
             var page_cust_payment_v_credits_id = "<?php if(isset($_GET['v_credits_id'])){ echo $_GET['v_credits_id']; } ?>";
             var page_phone_number = null;
             var page_msg = '';
-            var page_inv_data = null
+            var page_inv_data = null;
 
             $(function(){
-                var customer_params =;
+                var customer_params = [];
                 Page.load_select_options('cust_payment_customer',customer_params,'customerprofile','Customer','custid','custname'); 
 
                 if(page_action=="add"&&page_cust_payment_inv_code!=''){
