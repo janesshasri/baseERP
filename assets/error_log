@@ -1,0 +1,470 @@
+[26-Jul-2018 01:47:14 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/est_print_html.php on line 239
+[26-Jul-2018 01:47:14 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 21
+[26-Jul-2018 01:47:14 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 22
+[26-Jul-2018 01:47:14 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 22
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 131
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 132
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 133
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 133
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 134
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 135
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 135
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 136
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 141
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 145
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 157
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 158
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 159
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 159
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 160
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 161
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 161
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 162
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 182
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 224
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 228
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 258
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 267
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 277
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 286
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 295
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 304
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 321
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 329
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 329
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 337
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 337
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 345
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 345
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 347
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 347
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 350
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 365
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 365
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 366
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 366
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 367
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 382
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 394
+[26-Jul-2018 01:59:41 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 409
+[26-Jul-2018 07:49:26 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/est_print_html.php on line 239
+[26-Jul-2018 07:49:26 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 21
+[26-Jul-2018 07:49:26 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 22
+[26-Jul-2018 07:49:26 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 22
+[27-Jul-2018 02:43:32 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 306
+[27-Jul-2018 02:43:32 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 314
+[27-Jul-2018 02:43:32 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 322
+[27-Jul-2018 02:43:32 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 324
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 123
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 124
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 125
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 125
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 126
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 127
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 127
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 128
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 133
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 137
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 141
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 141
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 151
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 152
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 153
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 153
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 154
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 155
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 155
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 156
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 166
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 175
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 183
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 191
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 208
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 250
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 254
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 294
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 303
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 313
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 322
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 331
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 340
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 357
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 365
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 365
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 373
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 373
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 381
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 381
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 383
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 383
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 386
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 401
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 401
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 402
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 402
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 403
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 417
+[27-Jul-2018 05:21:10 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/books/assets/po_print_html.php on line 429
+[27-Jul-2018 06:09:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/est_print_html.php on line 239
+[27-Jul-2018 06:09:01 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 21
+[27-Jul-2018 06:09:01 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 22
+[27-Jul-2018 06:09:01 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 22
+[27-Jul-2018 06:21:45 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/books/workers/getters/functions.php on line 21
+[27-Jul-2018 06:21:45 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 93
+[27-Jul-2018 06:21:45 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 93
+[27-Jul-2018 06:21:45 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/books/assets/sales_credit_inv.php on line 93
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 116
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 117
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 118
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 118
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 119
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 120
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 120
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 121
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 126
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 129
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 133
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 137
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 137
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 147
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 148
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 149
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 149
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 150
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 151
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 151
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 152
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 156
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 219
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 261
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 265
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 298
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 306
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 306
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 314
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 314
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 322
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 322
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 324
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 324
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 328
+[28-Jul-2018 16:08:40 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/books/assets/grn_print_html.php on line 349
+[05-Oct-2018 08:52:13 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/eschools/public_html/e-schoolz.in/dhiraj/assets/po_print_html.php on line 399
+[05-Oct-2018 08:52:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/eschools/public_html/e-schoolz.in/dhiraj/assets/po_print_html.php on line 399
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 99
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 100
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 101
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 101
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 102
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 103
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 103
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 104
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 109
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 112
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 116
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 120
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 120
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 123
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 133
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 134
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 135
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 135
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 136
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 137
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 137
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 138
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 142
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 205
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 247
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 250
+[11-Mar-2019 06:33:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 100
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: taxvals in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[11-Mar-2019 06:33:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 272
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 280
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 280
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 288
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 288
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 296
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 296
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 298
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 298
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: grn_po_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 302
+[11-Mar-2019 06:33:20 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/grn_print_html.php on line 323
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 130
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 133
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 135
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 138
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 143
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 147
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 152
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 172
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 173
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 176
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 177
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 184
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 187
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 191
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 215
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 254
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 263
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 273
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 282
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 291
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 300
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 314
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 317
+[25-Apr-2019 12:58:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 100
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: taxvals in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[25-Apr-2019 12:58:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 341
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 370
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_bal_amt in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 378
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[25-Apr-2019 12:58:55 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 395
+[18-May-2019 10:50:28 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 6
+[18-May-2019 10:50:28 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 7
+[18-May-2019 10:50:28 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 162
+[18-May-2019 10:50:28 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 189
+[18-May-2019 10:50:28 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 189
+[18-May-2019 10:50:28 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 189
+[21-May-2019 05:07:12 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 6
+[21-May-2019 05:07:12 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 7
+[21-May-2019 05:07:12 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 162
+[21-May-2019 05:07:12 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 189
+[21-May-2019 05:07:12 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 189
+[21-May-2019 05:07:12 UTC] PHP Notice:  Undefined property: stdClass::$tax_method in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 189
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 130
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 133
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 135
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 138
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 143
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 147
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 152
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 172
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 173
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 176
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 177
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 184
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 187
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 191
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 215
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 254
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 263
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 273
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 282
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 291
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 300
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 314
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 317
+[15-Jun-2019 04:30:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 100
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: taxvals in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[15-Jun-2019 04:30:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 341
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 370
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_bal_amt in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 378
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[15-Jun-2019 04:30:17 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 395
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 130
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 133
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 135
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 138
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 143
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 147
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 152
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 172
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 173
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 176
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 177
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 184
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 187
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 191
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 215
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 254
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 263
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 273
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 282
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 291
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 300
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 314
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 317
+[17-Jul-2019 05:03:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 100
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: taxvals in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[17-Jul-2019 05:03:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 341
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 370
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_bal_amt in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 378
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[17-Jul-2019 05:03:33 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 395
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 130
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 133
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 135
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 138
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 143
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 147
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 152
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 172
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 173
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 176
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 177
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 184
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 187
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 191
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 215
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 254
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 263
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 273
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 282
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 291
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 300
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 314
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 317
+[16-Aug-2019 13:16:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 100
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: taxvals in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[16-Aug-2019 13:16:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 341
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 370
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_bal_amt in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 378
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[16-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 395
+[25-Aug-2019 13:49:59 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 130
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 133
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 134
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row2 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 135
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 138
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 143
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 147
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 152
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 159
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 172
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 173
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 174
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 175
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 176
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row1 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 177
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 184
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 187
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 191
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 215
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 254
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 263
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 273
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 282
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 291
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: row3 in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 300
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 314
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 317
+[25-Aug-2019 13:50:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 100
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: taxvals in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[25-Aug-2019 13:50:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eschools/public_html/e-schoolz.in/dhirajtrial/workers/getters/functions.php on line 106
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 341
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 349
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 357
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 365
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 367
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 370
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_bal_amt in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 378
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 393
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Trying to get property of non-object in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 394
+[25-Aug-2019 13:50:00 UTC] PHP Notice:  Undefined variable: inv_items_arr in /home/eschools/public_html/e-schoolz.in/dhirajtrial/assets/sales_credit_inv.php on line 395

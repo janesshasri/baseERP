@@ -1,0 +1,22 @@
+1> listVouchers.php
+2> recordExpenses.php
+3> listPayeeMaster.php
+4> addPayeeMaster.php
+5> editPayeeMaster.php
+6> deletePayeeMasyter.php
+7> editRecordExpenses.php
+8> voucherPrint.php
+9> deleteRecordExpenses.php
+10>/payeeMasterReport.php
+11>payeeTransactionHistory.php
+12>expenseReport.php
+13>expenseTransactionHistory.php
+
+Tables:
+
+1> expenseacctmaster
+2> payeedetails
+3>payeemaster
+4>payeemasterlog
+5>recordexpense
+

@@ -1,0 +1,719 @@
+<?php
+include("database/db_conection.php");//make connection here
+
+if(isset($_POST['submit'])){
+	
+	
+    $expdate=$_POST['expdate'];//same
+    $expacctname=$_POST['expacctname'];//same
+	$payee=$_POST['payee'];//same
+	$payeetype=$_POST['payeetype'];//same
+	$paymentype=$_POST['paymentype'];//same
+	$notes=$_POST['notes'];//same
+	//$image=$_POST['image'];//same
+	$createdby = $_POST['createdby'];
+	$amount = $_POST['amount'];//same
+			
+
+//$image =base64_encode($image);	
+$target_dir = "upload/";
+$target_file = $target_dir . basename($_FILES["image"]["name"]);
+$uploadOk = 1;
+$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+// Check if image file is a actual image or fake image
+    $check = getimagesize($_FILES["image"]["tmp_name"]);
+    if($check !== false) {
+        if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
+        //echo "The file ". basename( $_FILES["image"]["name"]). " has been uploaded.";
+    } else {
+        echo "Sorry, there was an error uploading your file.";
+    }
+		
+	} else {
+        echo "File is not an image.";
+        $uploadOk = 0;
+    }
+	
+	$voucherid ="";
+	$prefix = "0000";
+	
+	//Generating VoucherIDS
+	$sql="SELECT MAX(id) as latest_id FROM recordexpense ORDER BY id DESC";
+	if($result = mysqli_query($dbcon,$sql)){
+		$row   = mysqli_fetch_assoc($result);
+		if(mysqli_num_rows($result)>0){
+			$maxid = $row['latest_id'];
+			$maxid+=1;
+			
+			$voucherid = $prefix.$maxid;
+		}else{
+			$maxid = 0;
+			$maxid+=1;
+			$voucherid = $prefix.$maxid;
+		}
+	}
+
+	$sql="INSERT INTO recordexpense(`voucherid`, 	
+									`date`, 	
+									`accountname`, 	
+									`payee`, 	
+									`payeetype`, 	
+									`paymentype`,
+									`amount`,														
+									`notes`, 	
+									`image`,
+									`createdby`)
+							VALUES ('$voucherid',
+									'$expdate',
+									'$expacctname',
+									'$payee',
+									'$payeetype',
+									'$paymentype',
+									'$amount',
+									'$notes',
+									'$target_file',
+									'$createdby')";													    
+					
+	//echo "$insert_recordexpense";
+	// Inserting Log details into ExpenseNoteslog
+	$sql1= "INSERT into expensenoteslog(`voucherid`,
+										`notes`,
+										`createdby`,
+										`createdon`)
+								  VALUES('$voucherid',
+								         '$notes',
+										 '$createdby',
+										 '$expdate')";
+										
+	if(mysqli_query($dbcon,$sql)&& mysqli_query($dbcon,$sql1))
+	{
+		echo "<script>alert('Expense Master creation Successful ')</script>";
+		header("location:listExpenses.php");
+    } else {
+		die('Error: ' . mysqli_error($dbcon));
+		exit;
+		echo "<script>alert('Transport Master creation  unsuccessful ')</script>";
+	}
+	
+}
+?>
+<?php include('header.php');?>
+	<!-- End Sidebar -->
+
+
+    <div class="content-page">
+	
+		<!-- Start content -->
+        <div class="content">
+            
+			<div class="container-fluid">
+
+					
+				<div class="row">
+					<div class="col-xl-12">
+							<div class="breadcrumb-holder">
+                                    <h1 class="main-title float-left">Expense Entry Screen</h1>
+                                    <ol class="breadcrumb float-right">
+										<li class="breadcrumb-item">Home</li>
+										<li class="breadcrumb-item active">Expense Entry Screen</li>
+                                    </ol>
+                                    <div class="clearfix"></div>
+                            </div>
+					</div>
+			</div>
+            <!-- end row -->
+
+            
+			<!--div class="alert alert-success" role="alert">
+					  <h4 class="alert-heading">Company Registrtion Form</h4>
+					  <p></a></p>
+			</div-->
+
+			
+			<div class="row">					
+					<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">						
+						<div class="card mb-3">
+							<div class="card-header">
+								<!--h3><i class="fa fa-check-square-o"></i>Create Company </h3-->
+								 <h3>
+								 Record Expense</h3>
+								
+								<!--h3><class="fa-hover col-md-12 col-sm-12"><i class="fa fa-cart-plus smallfonts" aria-hidden="true">
+								</i>Add Transport Master Details
+								</h3-->
+								
+							</div>
+								
+							<div class="card-body">
+								
+								<!--form autocomplete="off" action="#"-->
+								<form action=""  enctype="multipart/form-data" method="post" accept-charset="utf-8">
+								
+								
+								
+								<div class="form-row">
+									<div class="form-group col-md-6">
+									   <label for="datepicker1">Date</label><span class="text-danger">*</span>
+									  <!--input type="date" class="form-control" name="date" value="<?php echo date("d/m/Y") ?>"/-->
+									  <input type="date" class="form-control form-control-sm"  name="expdate" value="<?php echo date("Y-m-d");?>">									
+									</div>
+									</div>
+									
+									 
+								    <div class="form-row">
+									<div class="form-group col-md-6">
+									 Payee<label ></label><span class="text-danger">*</span>
+									  <input type="text" class="form-control form-control-sm" name="payee" placeholder="Enter Name of Supplier/Employee/Customer/Others" autocomplete="off" required>
+									</div>
+									</div>
+									
+									<div class="form-row">
+									<div class="form-group col-md-6">
+									  <label >Payee Type</label>
+									 <select required id="payeetype" data-parsley-trigger="change"  class="form-control form-control-sm"  name="payeetype" >
+										<option value="">Choose Type</option>
+										<option value="Vendor">Vendor</option>
+										<option value="Customer">Customer</option>
+										<option value="Employee">Employee</option>
+										<option value="Others">Others</option>									
+									</select>
+									</div>
+									</div>
+									
+									<!--div class="form-row">
+								 <span class="text-danger"> Amount<label >*</span></label>
+									<form class="form-inline">	
+								  <div class="input-group mb-2 mr-sm-2 mb-sm-0">								  								  
+									<div class="input-group-addon">INR</div>
+									<input type="text" name="amount" class="form-control form-control-sm" id="inlineFormInputGroupUsername2" placeholder="Enter Amount" required>
+								  </div>
+									</div-->		
+
+
+								    <div class="form-row">
+									<div class="form-group col-md-6">
+									 Reference#<label ></label><span class="text-danger">*</span>
+									  <input type="text" class="form-control form-control-sm" name="referenceno" placeholder="Bill nos,..." autocomplete="off" required>
+									</div>
+									</div>									
+									
+									<div class="form-row">
+									<div class="form-group col-md-6">
+									  <label >Payment Method</label>
+									 <select required id="paymentype" data-parsley-trigger="change"  class="form-control form-control-sm"  name="paymentype" >
+										<option value="">Open Payment Type</option>
+										<option value="Cash">Cash</option>
+										<option value="Cheque">Cheque</option>
+										<option value="Neft">NEFT</option>
+									</select>
+									</div>
+									</div>		
+
+									
+									
+									<div class="form-row">
+									  <div class="form-group col-md-6">
+									  <label for="inputState">Created By</label>
+									  <?php 
+														//session_start();
+														include("database/db_conection.php");
+														$userid = $_SESSION['userid'];
+														$sq = "select username from userprofile where id='$userid'";
+														$result = mysqli_query($dbcon, $sq) or die(mysqli_error($dbcon));
+														//$count = mysqli_num_rows($result);
+														$rs = mysqli_fetch_assoc($result);
+													?>
+									   <input type="text" class="form-control form-control-sm" name="createdby" readonly class="form-control form-control-sm" value="<?php echo $rs['username']; ?>" />
+									
+									 </div>
+									 </div>									
+									<!--link  rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" /-->
+                                <table  class="table table-hover small-text" id="tb">
+                                    <tr class="tr-header">
+                                        <th width="20%">Payment Account</th>
+                                        <th width="40%">Description</th>
+                                        <!--th width="11%">Amount</th-->
+                                        <!--th width="12%">Tax Rate</th-->
+                                        <!--th width="15%"><i class="fa fa-rupee fonts" aria-hidden="true"></i>&nbsp;Rate</th-->
+                                        <th width="20%" > <i class="fa fa-rupee fonts" aria-hidden="true"></i>&nbsp;Amount</th>
+                                        <!-- <th width="8%"> <i class="fa fa-rupee fonts" aria-hidden="true"><b>&nbsp;Discount</b></i></th>-->
+                                        <th width="20%"> GST@%</th> 
+                                        <!--th width="20%"> <i class="fa fa-rupee fonts" aria-hidden="true"><b>&nbsp;Total</b></i></th-->
+                                        <th><a href="javascript:void(0);" style="font-size:18px;" id="addMore" title="Add More Person">
+                                            <span class="fa fa-plus-circle"></span></a></th>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <select name="itemcode" class="form-control itemcode" onchange="rowitem.set_itemrow(this,'purchase');" id="item_select">
+                                                <option value="" name="itemcode" selected>Account Name</option>
+                                                <?php $qr  = "SELECT id,accountname FROM expenseacctmaster ";
+                                                $exc = mysqli_query($dbcon,$qr)or die();
+                                                while($r = mysqli_fetch_array($exc)){ ?>
+                                                <option value="<?php echo $r['id']; ?>"><?php echo  $r['accountname']; ?></option>
+                                                <?php
+                                                                                    }
+                                                ?>
+                                            </select>
+                                        </td>
+										
+										
+                                        <td><input id="description" type="text" name="description" placeholder="Description" onkeypress="rowitem.update_math_vals();"   onkeyup="rowitem.update_math_vals();"   data-id="" class="form-control price"></td>
+                                        <td><input id="amount" type="text" name="amount" placeholder="Bill amount" data-id="" class="form-control amount"></td>
+                                        <!-- <td><input type="text" name="discount[]" class="form-control discount" placeholder="Itm wise Disc"></td> -->
+                                        <td>                       
+                                            <select class="form-control amount" id="taxname"  onchange="rowitem.update_math_vals();"; name="taxname" style="line-height:1.5;">
+                                                <option data-type="single" value="0" selected>Open Taxrate</option>
+                                                <?php 
+
+                                                $sql = mysqli_query($dbcon, "SELECT taxname,taxrate,taxtype FROM taxmaster ");
+                                                while ($row = $sql->fetch_assoc()){	
+                                                    $taxname=$row['taxname'];
+                                                    $taxrate=$row['taxrate'];
+                                                    $taxtype=$row['taxtype'];
+                                                    echo '<option data-type="'.$taxtype.'" value="'.$taxrate.'" >'.$taxname.'</option>';
+                                                }
+                                                ?>
+                                            </select>
+                                        </td>
+                                        <!--td><input type="text" name="total[]" class="form-control total" data-id="" placeholder="Item Total"></td-->
+                                        <td><a href='javascript:void(0);'  class='remove'><span class='fa fa-trash'></span><b></b></a></td>
+                                    </tr>
+                                </table>
+                                <!---subtotal , dicount , tax etc-->
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-7"></div>
+                                    <div class="col-md-5">
+
+                                        <div class="col-md-12">
+                                            <div class="row"><div class="col-md-8"><p class="h6">Sub Total: </p></div>
+                                                <div class="col-md-4 text-right"><span style="font-weight:600;"  class="lead text-danger" id="posubtotal">--</span></div>	
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-12" id="discountcol">
+                                            <div class="row">
+                                                <div class="col-md-8">
+
+                                                    <div id="ember1600" class="input-group ember-view col-md-7" style="padding-left:0px;">
+                                                        <input type="text" class="form-control text-right ember-text-field text-right ember-view" id="podiscount" style=".375rem .75rem;" onkeypress="rowitem.update_math_vals();"   onkeyup="rowitem.update_math_vals();" placeholder="Discount"> 
+                                                        <!----> <div class="input-group-btn" style="width:20%;"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle discount-btn" data-meth="flat" id="discoutTypeTextbutton">
+                                                        <span id="discoutTypeText">₹</span>  <span class="caret"></span></button> <ul class="dropdown-menu pull-right text-center" style="min-width:4rem;" id="discoutType">
+                                                        <li onclick="chgdiscount_tupe(this);" data-meth="percent"><a data-ember-action="" data-ember-action-1602="1602"  >%</a></li> 
+                                                        <li onclick="chgdiscount_tupe(this);"  data-meth="flat"><a data-ember-action="" data-ember-action-1603="1603" >₹</a></li></ul></div></div>
+                                                </div>
+                                                <div class="col-md-4 text-right">
+                                                    <span style="font-weight:600;"  class="lead text-danger" id="podiscountText">--</span>
+                                                </div>	
+
+                                            </div> 
+                                        </div>
+                                        <div id="taxdiv"></div>
+                                        <br/>
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-8"><p class="h6">Grand Total(Round off): </p></div>
+                                                <div class="col-md-4 text-right"><span style="font-weight:600;"  class="lead text-danger" id="pograndtotal">--</span></div>	
+                                            </div>
+
+                                        </div>     
+                                        <div class="col-md-12">										
+                                            <div class="row">
+                                                <div class="col-md-8">												
+                                                    <div class="form-group col-8" style="padding-left:0px;">
+
+                                                        <input class="form-control" onkeypress="rowitem.update_math_vals();"   onkeyup="rowitem.update_math_vals();" id="poadjustmentval" type="number" step="any" placeholder="Adjustment ">
+                                                        <i class="fa fa-question-circle-o bigfonts" aria-hidden="true" data-toggle="popover" 
+                                                           data-trigger="focus" data-placement="top" title="Add any other +ve or -ve charges that need to be appliedto adjust the total amount of the transaction Eg. +10 or -10."></i>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-md-4 text-right"><span style="font-weight:600;"  class="lead text-danger" id="poadjustment">--</span></div>	
+
+
+                                            </div>
+
+                                        </div>  
+                                        <div class="col-md-12">
+                                            <div class="row"><div class="col-md-8"><p class="h6">Balance Due: </p></div>
+                                                <div class="col-md-4 text-right"><span style="font-weight:600;"  class="lead text-danger" id="pobaltotal">--</span></div>	
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <hr>
+
+                                <br/>
+								
+								<div class="form-row">
+                                    <div class="form-group col-md-8">
+                                        <label>
+                                            <div class="fa-hover col-md-10 col-sm-10">
+                                           <span class="text-danger"><i class="fa fa-paperclip bigfonts" aria-hidden="true"></span></i>&nbsp;Attach Receipt<span class="text-danger">(not more than 1MB)</span></div>
+                                        </label> 
+                                        &nbsp;&nbsp;<input type="file" name="image" class="form-control">
+                                    </div>
+								</div></br>
+								
+
+                               
+                                <div class="form-row col-md-8">
+                                    <div class="form-group col-md-12">
+                                        <textarea rows="2" class="form-control" name="exp_notes"  id="exp_notes" required placeholder="Add Expense Record Notes"></textarea>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-row">
+                                    <div class="form-group text-right m-b-0">
+                                        &nbsp;&nbsp;&nbsp;&nbsp; <button id="submit-form" class="btn btn-primary" type="submit" >
+                                        Submit
+                                        </button>
+                                        <button id="cancel-form" type="reset" name="cancel" class="btn btn-secondary m-l-5">
+                                            Cancel
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="alert alert-danger alert-dismissible" id="message-alert" role="alert" style="display:none;">
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- END container-fluid -->
+
+        </div>
+        <!-- END content -->
+
+    </div>
+    <!-- END content-page -->
+
+
+    <!--?php include('footer.php');?-->
+    <footer class="footer">
+        <span class="text-right">
+            Copyright@<a target="_blank" href="#">Dhiraj Agro Products Pvt. Ltd.,</a>
+        </span>
+        <span class="float-right">
+            Powered by <a target="_blank" href=""><span>e-Schoolz</span> </a>
+        </span>
+    </footer>
+
+</div>
+<!-- END main -->
+<style>
+    #discoutType li {
+
+        cursor: pointer;
+    }
+    #discoutType li:hover {
+
+        background-color:#007BFF;
+        color: #ffffff;
+    }
+</style>
+
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/detect.js"></script>
+<script src="assets/js/fastclick.js"></script>
+<script src="assets/js/jquery.blockUI.js"></script>
+<script src="assets/js/jquery.nicescroll.js"></script>
+<script src="assets/js/jquery.scrollTo.min.js"></script>
+<script src="assets/plugins/switchery/switchery.min.js"></script>
+
+<!-- App js -->
+<script src="assets/js/pikeadmin.js"></script>
+
+<!-- BEGIN Java Script for this page -->
+
+<!-- END Java Script for this page -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+<script>       
+    var page_action = "<?php if(isset($_GET['action'])){ echo $_GET['action']; } ?>";
+    var page_table = "<?php if(isset($_GET['type'])){ echo $_GET['type']; } ?>";
+    var page_po_code = "<?php if(isset($_GET['po_code'])){ echo $_GET['po_code']; } ?>";
+
+
+    $(function(){
+
+        ////set select options
+        var user_params = [];
+        var comp_params = [];
+        var vendor_params = [];
+        var paymentterm_params = [];
+        var shippingvia_params = [];
+        var loction_params = [];
+        comp_params[0]={"primaryflag":"1"};  
+        $('#po_owner').val('<?php echo $session_user; ?>');
+        $('#po_tc').val('<?php 
+                        $sql = mysqli_query($dbcon, "SELECT po_tc from purchaseorders order by id desc");
+                        while ($row = $sql->fetch_assoc()){	
+                            $po_tc=$row['po_tc'];
+
+                            if($po_tc==''||$po_tc==null){
+                                echo "";
+                            }else{
+                                echo $po_tc;
+
+                            }
+                        }?>');
+                        Page.load_select_options('po_comp_code',comp_params,'comprofile','Company Code','orgid','orgname');
+        Page.load_select_options('po_vendor',vendor_params,'vendorprofile','Vendor Code','vendorid','supname');
+        Page.load_select_options('po_shippingvia',shippingvia_params,'transportmaster','Shipping Via','transname',null);  
+        Page.load_select_options('po_payterm',paymentterm_params,'paymentterm','Payment  Term','noofdays','paymentterm');
+        Page.load_select_options('po_deliveryat',loction_params,'location','Deivery at','locname',null);
+        Page.load_select_options('po_shipping_state',loction_params,'state','Shipping State','code','description',3);
+        Page.load_select_options('po_billing_state',loction_params,'state','Billing State','code','description',3);
+        Page.load_select_options('po_shipping_country',loction_params,'country','Shipping Country','code','description',3);
+        Page.load_select_options('po_billing_country',loction_params,'country','Billing Country','code','description',3);
+        //        Page.load_select_options('po_deliveryat',loction_params,'location','Deivery at','locname',null);
+        //        Page.load_select_options('po_deliveryat',loction_params,'location','Deivery at','locname',null);
+        //        Page.load_select_options('po_deliveryat',loction_params,'location','Deivery at','locname',null);
+
+        $('#addMore').on('click', function() {
+            var data = $("#tb tr:eq(1)").clone(true).appendTo("#tb");
+            data.attr("id",);
+            data.find("input").val('');
+        });
+
+        $(document).on('click', '.remove', function() {
+            var trIndex = $(this).closest("tr").index();
+            if(trIndex>1) {
+                $(this).closest("tr").remove();
+                rowitem.update_math_vals();
+            } else {
+                alert("Sorry!! Can't remove first row!");
+            }
+        });
+
+        //addGroupnames_ajax.php
+        $('#submitpaymentterm').click(function(){
+            var description = $('#adddescription').val();
+            var paymentterm = $('#addpaymentterm').val();
+            //alert(groupname+description);
+            $.ajax ({
+                url: 'addPaymentTermModal.php',
+                type: 'post',
+                data: {
+                    paymentterm:paymentterm,
+                    description:description
+                },
+                //dataType: 'json',
+                success:function(response){
+                    if(response!=0 || response!=""){
+                        var new_option ="<option>"+response+"</option>";
+                        $('#paymentterm').append(new_option);
+                        $('#customModal').modal('toggle');
+                    }else{
+                        alert('Error in inserting new Payment Term,try another Payment Term');
+                    }
+                }
+
+            });
+
+        });
+
+        $('#billing_to_shipping').click(function(){
+            $('#po_shipping_street').val($('#po_billing_street').val());
+            $('#po_shipping_city').val($('#po_billing_city').val());
+            $('#po_shipping_state').val($('#po_billing_state').val());
+            $('#po_shipping_country').val($('#po_billing_country').val());
+            $('#po_shipping_zip').val($('#po_billing_zip').val());
+            $('#po_shipping_phone').val($('#po_billing_phone').val());
+            $('#po_shipping_gstin').val($('#po_billing_gstin').val());
+        });
+
+
+        $('#shipping_to_billing').click(function(){
+            $('#po_billing_street').val($('#po_shipping_street').val());
+            $('#po_billing_city').val($('#po_shipping_city').val());
+            $('#po_billing_state').val($('#po_shipping_state').val());
+            $('#po_billing_country').val($('#po_shipping_country').val());
+            $('#po_billing_zip').val($('#po_shipping_zip').val());
+            $('#po_billing_phone').val($('#po_shipping_phone').val());
+            $('#po_billing_gstin').val($('#po_shipping_gstin').val());
+        });
+
+
+        if(page_action=="edit"){
+            var edit_data = Page.get_edit_vals(page_po_code,page_table,"po_code");
+            set_form_data(edit_data);
+        }
+        function set_form_data(data){
+            // console.log(data.po_owner);
+            //// $('#po_owner').val(data.po_owner);
+            $.each(data, function(index, value) {
+
+                if(index=="id"||index=="po_code"){
+
+
+                }else if(index=="po_items"){
+                    set_math_vals(JSON.parse(value));
+
+                }else{
+
+                    $('#'+index).val(value);
+                }
+
+            }); 
+
+
+        }
+    });      
+
+    function set_math_vals(po_items_json){
+        var itemrowCount = po_items_json.length;
+        var rowCount = $('#tb tr').length;
+
+        for(r=0;r<itemrowCount;r++){
+
+            if(r<itemrowCount-1){
+                var dataRow = $("#tb tr:eq(1)").clone(true).appendTo("#tb");
+            }
+
+            $('#tb tr').eq(r+1).find('#item_select').val(po_items_json[r].itemcode);
+            $('#tb tr').eq(r+1).find('#price').val(po_items_json[r].rwprice);
+            $('#tb tr').eq(r+1).find('#price').attr('data-price',po_items_json[r].tax_method==1?po_items_json[r].rwprice_org:po_items_json[r].rwprice);
+            $('#tb tr').eq(r+1).find('#qty').val(po_items_json[r].rwqty);
+            $('#tb tr').eq(r+1).find('#taxname').val(po_items_json[r].tax_val);
+            $('#tb tr').eq(r+1).find('#taxname').attr('data-taxmethod',po_items_json[r].tax_method);
+            $('#tb tr').eq(r+1).find('#uom').val(po_items_json[r].uom);
+
+
+        }
+        if(itemrowCount>0){
+            var podiscount = po_items_json[0].podiscount;
+            var poadjustmentval = po_items_json[0].poadjustmentval;    
+            $('#podiscount').val(podiscount);
+            $('#poadjustmentval').val(poadjustmentval);
+
+        }
+
+        rowitem.update_math_vals();
+    }
+
+    function chgdiscount_tupe(x){
+        var discountMeth = $(x).attr('data-meth');
+        if(discountMeth=="flat"){
+            $('#discoutTypeTextbutton #discoutTypeText').html('₹');
+            $('#discoutTypeTextbutton').attr('data-meth','flat');
+        }else{
+            $('#discoutTypeTextbutton #discoutTypeText').html('%');
+            $('#discoutTypeTextbutton').attr('data-meth','percent');
+
+        }
+        rowitem.update_math_vals();
+
+    }
+
+
+    $("#cancel-form").click(function(){
+        location.href="listPurchaseOrders.php";
+    });
+
+
+
+    $("form#add_po_form").submit(function(e){
+        e.preventDefault();
+
+
+        var rowCount = $('#tb tr').length;
+        var po_items = [];
+
+        for(i=1;i<rowCount;i++){ 
+            var item_select = $('#tb tr').eq(i).find('#item_select').val();
+            var item_details = $('#tb tr').eq(i).find('#item_select option:selected').text();
+            var hsncode = $('#tb tr').eq(i).find('#hsncode').val();
+            var rwqty = $('#tb tr').eq(i).find('#qty').val();
+            var tax_val = $('#tb tr').eq(i).find('#taxname').val();
+            var tax_method = $('#tb tr').eq(i).find('#taxname').attr('data-taxmethod');
+            var rwprice = $('#tb tr').eq(i).find('#price').val();
+            var rwprice_org = $('#tb tr').eq(i).find('#price').attr('data-price');
+            var rwamt = $('#tb tr').eq(i).find('#amount').val();
+            var uom = $('#tb tr').eq(i).find('#uom').val();
+            var podiscount = $('#podiscount').val();
+            var poadjustmentval = $('#poadjustmentval').val();
+            var po_items_ele = {
+                itemdetails : item_details,
+                itemcode : item_select,
+                hsncode : hsncode,
+                rwqty : rwqty,
+                tax_val : tax_val,
+                tax_method : tax_method,
+                rwprice : rwprice,
+                rwprice_org : rwprice_org,
+                rwamt : rwamt,
+                podiscount : podiscount,
+                poadjustmentval:poadjustmentval,
+                uom : uom
+            };
+
+            po_items[i-1]=po_items_ele;
+
+        }
+
+        var $form = $("#add_po_form");
+        var data = getFormData($form);
+        function getFormData($form){
+            var unindexed_array = $form.serializeArray();
+            var indexed_array = {};
+
+            $.map(unindexed_array, function(n, i){
+                if(n['name']=="itemcode"||n['name']=="hsncode"||n['name']=="qty"||n['name']=="unit"||n['name']=="price"||n['name']=="amount"||n['name']=="taxname"||n['name']=="uom"){
+
+                }else{
+                    indexed_array[n['name']] = n['value'];
+
+                }
+            });
+
+            return indexed_array;
+        }
+
+        data.table = "purchaseorders";
+        data.po_items = JSON.stringify(po_items);
+        data.po_value = $('#pobaltotal').text(); 
+
+        $.ajax ({
+            url: 'workers/setters/save_po.php',
+            type: 'post',
+            data: {array : JSON.stringify(data),po_code:page_po_code,action:page_action?page_action:"add",table:"purchaseorders"},
+            dataType: 'json',
+            success:function(response){
+                location.href="listPurchaseOrders.php";
+            }
+
+
+        });
+
+    });
+
+
+
+
+</script>			
+
+
+</body>
+</html>
